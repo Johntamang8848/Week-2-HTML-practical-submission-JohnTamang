@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Timetable</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Weekly Class Timetable</h1>
+
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+    <tr>
+      <td>7:00am. 9:00am.</td>
+      <td>Mathematics and Concepts for Computational Thinking</td>
+      <td>Fundamentals of Software Engineering</td>
+      <td>Fundamentals of Software Engineering</td>
+      <td>Mathematics and Concepts for Computational Thinking</td>
+      <td>Fundamentals of Software Engineering</td>
+      <td></td>
+    </tr>
+    <tr>
+      <!-- colspan merges this cell across all 6 day columns for a shared lunch break -->
+      <td>9:00 10:00</td>
+      <td colspan="6">Lunch Break</td>
+    </tr>
+    <tr>
+      <td>10:00 12:00</td>
+      <td>Fundamentals of software engineering</td>
+      <td>Mathematics and Concepts for Computational Thinking</td>
+      <td>Fundamentals of Software Engineering</td>
+      <td>Fundamentals of software engineering</td>
+      <td>Mathematics and Concepts for Computational Thinking</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>1:00 2:00</td>
+      <td>Mathematics and Concepts for Computational Thinking</td>
+      <td></td>
+      <td></td>
+      <td>Mathematics and Concepts for Computational Thinking</td>
+      <td>Fundamentals of Software Engineering</td>
+      <td></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

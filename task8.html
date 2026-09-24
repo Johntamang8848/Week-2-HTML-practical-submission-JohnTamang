@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Media Hub</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Favicon: save an icon as favicon.ico next to this HTML file -->
+  <link rel="icon" href="favicon.ico">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      font-family: "Roboto", sans-serif;
+    }
+
+    iframe,
+    video {
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Media Hub</h1>
+
+  <h2>YouTube Video</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nQWFzMvCfLE" title="YouTube video"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+
+  <p>
+    <a href="https://www.youtube.com/watch?v=nQWFzMvCfLE" target="_blank">
+      Watch this video on YouTube
+    </a>
+  </p>
+
+  <h2>Local Video</h2>
+  <video controls width="560">
+    <source src="flower.mp4" type="video/mp4">
+    <source src="flower.mp4" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Audio Clip</h2>
+  <audio controls>
+    <source src="t-rex-roar.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <h2>PCPS College Map</h2>
+  <iframe src="https://maps.google.com/maps?q=PCPS%20College%20Kupondole&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    width="560" height="350" title="Map showing PCPS College in Kupondole" loading="lazy">
+  </iframe>
+
+  <h2>External Website</h2>
+  <iframe src="https://www.example.com" width="560" height="350" title="Example external website">
+  </iframe>
+
+  <h2>PDF Document</h2>
+  <embed src="documents/sample.pdf" type="application/pdf" width="560" height="500">
+
+</body>
+
+</html>
